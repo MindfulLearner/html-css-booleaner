@@ -1,0 +1,72 @@
+/* Formattazione globale */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Parte header */
+
+.headerWallpaper {
+    background-size: 50%;
+    background-color: aquamarine;    
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+}
+
+main > h1 {
+    margin-top: 10px;
+}
+
+
+/* Parte main */
+/* Sistemare link The Booleaner cliccabile */
+
+main > p > #autore {
+    color: blue;
+}
+
+main > #dataPubblicazione {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+main > p {
+    margin-top: 20px;
+}
+
+/* Reset ul e li ai loro valori di default */
+
+ul {
+    margin-top: 25px;
+    padding-left:30px;
+    list-style: initial;
+}
+
+/* Table */
+
+table {
+    margin-top: 25px;
+    padding: 0%;
+}
+
+.trSezione {
+    background-color: aquamarine;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    margin: 0;
+}
+
+.trContenuto1 {
+    background-color: aquamarine;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.trContenuto3 {
+    background-color: aquamarine;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
