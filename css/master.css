@@ -87,8 +87,7 @@ td {
   padding-bottom: 10px;
 }
 
-.monitorimg {
-    background-image: url("../img/monitor.jpg");
+.box {
     margin-bottom: 10px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -97,12 +96,10 @@ td {
     position: relative;
 }
 
-.graphimg {
+.box.monitorimg {
+    background-image: url("../img/monitor.jpg");
+}
+
+.box.graphimg {
     background-image: url("../img/graph.jpg");
-    margin-bottom: 10px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 250px;
-    width: auto;
-    position: relative;
 }
