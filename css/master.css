@@ -86,3 +86,23 @@ td {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.monitorimg {
+    background-image: url("../img/monitor.jpg");
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: auto;
+    position: relative;
+}
+
+.graphimg {
+    background-image: url("../img/graph.jpg");
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: auto;
+    position: relative;
+}
